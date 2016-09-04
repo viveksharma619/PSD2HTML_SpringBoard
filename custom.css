@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400italic);
+body, html{
+    font-family: "Open Sans",sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.452;
+    color: ##48485e;
+/*    background-image: url("images/springboard-online-workshops-homepage-banner_m.24801d50.jpg");*/
+}
+#main{
+    background-image: url("images/background.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0099bf;
+        z-index: 5;
+
+}
+/*
+#main2{
+    background-image: linear-gradient(to right,rgba(0,0,0,.6),rgba(0,0,0,.095));
+}
+*/
+
+.navbar {
+    margin-bottom: 0 !important;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.navbar-brand img{
+    position: relative;
+    height: 42px;
+    width: auto;
+    vertical-align: middle;
+    margin-top: -12px;
+}
+.nav li >a{
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.nav li >a:hover{
+    font-weight: 700;
+    color: #00c09d;
+    background-color: transparent !important;
+    border: none;
+}
+p{
+    line-height: 1.52;
+    font-size: 16px;
+    margin-bottom: 22px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.container{
+width: 1200px;
+}
+
+/********************hero***************************/
+#hero{
+    height: 580px;
+/*    background: #48495E;*/
+/*
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;  
+*/
+}
+.herocontent{
+    margin-top: 100px;
+    vertical-align: middle;
+    color: white;
+    font-size: 3em;
+}
+.herocontent h2{
+    font-size: 60px ;
+}
+.herocontent h3{
+    font-size: 30px; ;
+}
+.herocontent p{
+    font-size: 18px; ;
+}
+.arrow{
+    color: white;
+    margin-top:200px;
+    left: 50%;
+    font-size:1.5em;
+}
+#underline{
+    height: 3px;
+    width: 62px;
+    background: yellow;
+    margin-bottom: 10px;
+}
+
+#info1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#info2{
+    margin-bottom: 50px;
+}
+/*********************************** footer ****************/
+.topfooter{
+    background: #48485e;
+    color: white;
+    height: 300px;
+    line-height: 1.5;
+}
+.topfooter h5{
+    color: #00c09d;
+    font-size: 1.2em;
+    text-align: left;
+}
+.topfooter h1{
+    color: white;
+    font-weight: 700;
+    font-size: 3em;
+}
+.topfooter p{
+    color: white;
+    font-size: 1.5em;
+}
+.topfooter ul{
+    list-style: none;
+}
+.topfooter ul{
+    text-align: left;
+}
+.topfooter a{
+    color: white; 
+    line-height: 1.7;
+}
+.topfooter a:hover{
+     color: #00c09d;
+    text-decoration: none;
+}
+.btn-yellow{
+    background-color: yellow;
+    color: #3b3b4e;
+    border-radius: 2px !important;
+}
+input[type="text"] {
+  background-color : #3b3b4e; 
+  border-color: #3b3b4e;   
+}
+.custom-input{
+   border-radius: 2px !important; 
+}
+.bottomfooter{
+    background: #3b3b4e;
+    color:white;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.bottomfooter p{ line-height: 50px;}
+.mtop{
+    margin-top: 50px;
+}
+.circle{ 
+width:10px;
+height:10px;
+border-radius:50%;
+color:#fff;
+text-align:center;
+background: red;  
+    display: inline;
+}
+
+/* *******************************************signupband ****************************/
+#signupband{
+    height: 130px;
+    background: #00c09d;
+    color: white;
+}
+#signupband h3 {
+    font-size: 2.3em;
+}
+
+/* ******************************************* qoutesband ****************************/
+.doubleqoutes{
+    font-weight: 700;
+    font-size: 72px;
+    position: absolute;
+    height: 34px;
+    line-height: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+.doubleqoutes-bottom{
+    font-weight: 700;
+    font-size: 60px;
+    position: absolute;
+    height: 34px;
+    line-height: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+.text-bottom{
+    position: relative;
+    left: 30px;
+    font-size:28px;
+}
+.myquote-ctn{
+   display: inline-block;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.text{
+    display: inline;
+    position: relative;
+    left: 45px;
+    font-size: 32px;
+}
+#quote{
+    background: #efeff6;
+    height: 230px;
+    font-size: 30px;
+    padding: 30px;
+}
+.qoutesband{
+/*    margin-top: 50px;*/
+}
+/*
+.qoutesband > span {
+    display: inline;
+}
+*/
+.qoutesbottom{
+    height: 300px;
+    font-size: 30px;
+    width: auto;
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 2px;
+}
+
+
+/* footer social icons */
+.social-network a.icoYoutube {
+	background-color: #cf3427;
+}
+.social-network a.icoFacebook {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin {
+	background-color:#007bb7;
+}
+.social-network a.icoYoutube:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 20px;
+	height: 20px;
+	font-size:10px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:20px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+}

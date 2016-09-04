@@ -1,0 +1,16 @@
+{
+  "name": "psd2html",
+  "version": "1.0.0",
+  "description": "This is the SpringBoard PSD2HTML.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Sharma",
+  "license": "MIT"
+}
